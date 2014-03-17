@@ -1,0 +1,41 @@
+@font-face{
+	font-family : 'woodcutter';
+	src : url(woodcutter.woff) format('woff'),
+		  url(woodcutter.ttf) format('truetype')
+}
+
+canvas{
+	border : 5px solid #eee;
+	margin-left : auto;
+	margin-right: auto;
+	display: table	;
+	border-radius: 20px;
+}
+
+h1 {
+ text-align : center;
+ margin: 0 auto;
+ padding: 20px;
+ font-family: woodcutter, Times, serif;
+ font-size : 70px;
+}
+
+span{
+	font-family: woodcutter, Times, serif;
+ 	font-size : 30px;
+ 	float: right;
+ 	cursor: pointer;
+ 	background : tomato;
+ 	padding:5px;
+ 	margin-left: 20px;
+ 	transition: background 0.3s;
+}
+
+span:hover{
+	background : gold;
+}
+
+#spans{
+	margin-right: 14%;
+	margin-top: 20px;
+}
